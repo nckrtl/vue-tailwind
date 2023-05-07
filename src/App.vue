@@ -1,5 +1,7 @@
-<script setup></script>
+<script setup>
+const classes = 'flex items-center justify-center w-full h-screen font-thin text-8xl';
+</script>
 
 <template>
-  <div class="flex items-center justify-center h-screen w-full text-8xl font-thin">Hello.</div>
+  <p :class="classes">Hello.</p>
 </template>
